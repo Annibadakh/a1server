@@ -4,7 +4,7 @@ const Component = require('./models/Component');
 
 dotenv.config();
 
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/lims_inventory';
+const MONGO_URI = 'mongodb+srv://aniketbadakh:Aniket%40123@cluster0.xh5wj0i.mongodb.net/lims_inventory?retryWrites=true&w=majority';
 
 // Replace this with a valid user ObjectId from your `User` collection
 const DUMMY_USER_ID = '64eeaa4eeb0c2cf32ac4d123';

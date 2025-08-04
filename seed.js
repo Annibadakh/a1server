@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 const User = require('./models/User');
 
 dotenv.config();
-MONGODB_URI='mongodb://localhost:27017/lims_inventory'
+MONGODB_URI='mongodb+srv://aniketbadakh:Aniket%40123@cluster0.xh5wj0i.mongodb.net/lims_inventory?retryWrites=true&w=majority'
 
 
 const seedUsers = async () => {
